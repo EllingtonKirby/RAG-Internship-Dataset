@@ -22,10 +22,12 @@ class IasdInternshipSpider(scrapy.Spider):
         title = internship.xpath("normalize-space(div[@class='internship-title']/a/text())").get().strip()
         organization = internship.xpath("normalize-space(div[@class='internship-organization']/text())").get().strip()
         supervisor = internship.xpath("normalize-space(div[@classs='internship-supervisor']/text())").get().strip()
+        description = ""
         pdf_link = internship.xpath("normalize-space(div[@class='internship-title']/a/@href)").get().strip()
         return {
             'title': title,
             'organization': organization,
             'supervisor': supervisor,
-            'pdf': pdf_link
+            'description': description,
+            'link': pdf_link
         }
