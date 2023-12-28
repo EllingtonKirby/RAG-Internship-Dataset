@@ -14,4 +14,18 @@ class IasdInternshipSpider(scrapy.Spider):
     start_urls = ['https://www.lamsade.dauphine.fr/wp/iasd/en/liste-des-stages-disponibles/']
 
     def parse(self, response):
-        yield 0
+        internships = response.xpath("//div[@class='internship']")
+        for internship in  internships:
+            yield self.parse_internship(internship)
+
+    def parse_internship(self, internship):
+        title = internship.xpath("normalize-space(div[@class='internship-title']/a/text())").get().strip()
+        organization = internship.xpath("normalize-space(div[@class='internship-organization']/text())").get().strip()
+        supervisor = internship.xpath("normalize-space(div[@classs='internship-supervisor']/text())").get().strip()
+        pdf_link = internship.xpath("normalize-space(div[@class='internship-title']/a/@href)").get().strip()
+        return {
+            'title': title,
+            'organization': organization,
+            'supervisor': supervisor,
+            'pdf': pdf_link
+        }
