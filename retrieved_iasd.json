@@ -1,0 +1,177 @@
+[
+    {
+        "title": "From Neural Network to Temporal Logic: A Global Explainability Method for Time Series",
+        "organization": "Inria",
+        "supervisor": "Paul Boniol",
+        "description": "This internship proposal aims to develop a methodology that converts predictions from convolutional neural network (CNN) models into a temporal-based decision tree for time series classification. The objective is to provide a global explanation for the classification results, allowing users to understand the model's reasoning at a dataset level. The tasks include reviewing literature on local and global explanations, implementing temporal-based decision trees, evaluating the solution on benchmark datasets, and comparing it to existing methods. The required skills include a background in data science and computer science, as well as strong analytical and programming skills in Python. The internship will take place at Ecole Normale Supérieure in Paris.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=455"
+    },
+    {
+        "title": "STAGE - En IA - Prédiction et Planning pour le Conduite Autonome",
+        "organization": "Stellantis",
+        "supervisor": "Carlos Valadares",
+        "description": "This internship proposal is for a position at Stellantis in the field of Artificial Intelligence (AI) for Prediction and Planning for Autonomous Driving. The intern will work on developing new trajectory planning models using deep learning techniques, taking into account various constraints and safety considerations. The main tasks include familiarizing with existing trajectory planning models, designing new models based on reinforcement learning, implementing and evaluating these models, and contributing to the team's needs. The internship is for a duration of 6 months and requires strong knowledge in Python, Git, and deep learning tools. Fluency in English is also required.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=454"
+    },
+    {
+        "title": "Prédiction de trajectoires pour la conduite autonome",
+        "organization": "Stellantis",
+        "supervisor": "lina achaji",
+        "description": "This internship proposal is for a position at Stellantis, a company working on autonomous driving solutions. The intern will join the \"Prediction and Planning for autonomous driving\" team and work on developing new trajectory prediction models using deep learning. The objectives include familiarizing with state-of-the-art trajectory prediction models, designing new models, improving prediction efficiency, integrating models into trajectory planning architectures, implementing and evaluating the models, and potentially publishing the results. The desired profile includes a strong background in Python, experience with deep learning tools, good mathematical knowledge, and strong communication skills. The internship will last for 6 months and is located in Poissy, France.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=453"
+    },
+    {
+        "title": "Graph Representation for Multivariate Time Series Analytics",
+        "organization": "Inria",
+        "supervisor": "Paul Boniol",
+        "description": "This internship proposal aims to develop a unified graph representation for multivariate time series data. The current challenge is that existing solutions use separate models for each dimension, leading to decreased accuracy, increased execution time, and reduced interpretability. The objective is to propose a new graph representation that supports basic analytics such as classification, clustering, and anomaly detection. The tasks include reviewing literature, proposing and implementing a new graph representation, evaluating it on benchmarks, and comparing it to existing methods. The internship will take place at Ecole Normale Supérieure in Paris and may lead to a PhD opportunity.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=452"
+    },
+    {
+        "title": "Bilevel learning of hyper-parameter estimation in image reconstruction problems",
+        "organization": "CNRS",
+        "supervisor": "Luca Calatroni",
+        "description": "This internship proposal focuses on the study of convergence properties of optimization algorithms for bilevel learning of hyper-parameter estimation in image reconstruction problems. The objective is to design provable converging bilevel optimization schemes under the assumption that the lower-level objective is C1 with an L-Lipschitz gradient. The internship will take place within the Inria Morpheme team and the LJAD mathematics department, and the candidate should have a background in optimization, imaging inverse problems, and learning. The internship is funded by the ANR JCJC project TASKABILE and there is potential for further research activities in a PhD thesis.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=451"
+    },
+    {
+        "title": "Extreme climatic events prediction with Deep Learning",
+        "organization": "Tellus AI",
+        "supervisor": "Alexandre Girard",
+        "description": "This internship proposal is for a position at Tellus AI, a startup focused on subseasonal to seasonal prediction of extreme climatic events. The intern will work with a team of scientists and engineers to develop and deploy machine learning models to better understand and predict the impacts of climate change. The intern should have a strong background in machine and deep learning, be comfortable working with large and complex datasets, and have a strong understanding of the latest machine learning techniques and technologies. The project will involve conducting a literature review, analyzing climatic datasets, and developing new deep learning models.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=450"
+    },
+    {
+        "title": "Approximation variationnelle de lois a priori de référence en inférence bayésienne",
+        "organization": "CEA Saclay",
+        "supervisor": "Antoine Van Biesbroeck",
+        "description": "The internship proposal is for a research internship in applied mathematics at CEA Saclay during the spring and summer of 2024. The project focuses on the variational approximation of reference priors in Bayesian inference. The goal is to develop numerical methods for constructing reference priors using variational inference, with potential applications in neural networks and the estimation of seismic fragility curves. The internship will be supervised by Antoine Van Biesbroeck, Clément Gauchy, and Cyril Feau. The candidate should be a final year M2/Grande Ecole student in statistics with programming skills in Python or R. The internship will last for 6 months with a salary ranging from 700€ to 1300€, depending on the candidate's school, and additional benefits such as a residence allowance and transportation reimbursement.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=449"
+    },
+    {
+        "title": "AI-powered precision diagnostics for pathology (Berlin)",
+        "organization": "Aignostics",
+        "supervisor": "Martin Bauw",
+        "description": "The internship proposal can be found online at the provided link.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=448"
+    },
+    {
+        "title": "Working on machine Learning driven Equity Strategies",
+        "organization": "Queensfield AI Technologies",
+        "supervisor": "Arnaud de Servigny",
+        "description": "QueensField AI Technologies is offering a 6-month internship in 2024. The company provides AI solutions to international clients in the finance industry. The intern will join the Research Team led by Dr. Arnaud de Servigny and Dr. Jeremy Chichportich. The focus of the internship is to leverage the company's proprietary dataset, use machine-learning techniques to create a quantitative investment strategy, and potentially learn and implement deep learning methods. They are looking for someone pursuing a Master's degree in a quantitative field, with a strong interest in machine learning and AI, and coding skills in Python. Contact details are provided for application.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=447"
+    },
+    {
+        "title": "Reinforcement learning methods for wind farm flow control optimization",
+        "organization": "TotalEnergies",
+        "supervisor": "Elie KADOCHE",
+        "description": "This internship proposal from TotalEnergies OneTech focuses on using reinforcement learning methods to optimize wind farm flow control. The intern will learn about the challenges of wind farm flow control, develop state-of-the-art solutions, and then create new methods based on reinforcement learning. The objective is to find innovative and original approaches to the problem. The intern will work in the artificial intelligence research and development team based in Palaiseau, France.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=446"
+    },
+    {
+        "title": "Apprentissage par renforcement et Graph Neural Network pour l’optimisation des réseaux",
+        "organization": "Orange",
+        "supervisor": "Morgan Chopin",
+        "description": "This internship proposal is for a position at Orange Innovation in Châtillon, France. The intern will join the Mathematical models for Optimization and peRformance Evaluation (MORE) team within the DATA&AI department. The objective of the internship is to develop an optimization algorithm using reinforcement learning and graph neural networks to solve a combinatorial optimization problem related to network capacity augmentation. The developed algorithms will be integrated into a decision support tool for network architects. The desired profile includes knowledge of Python/PyTorch and familiarity with machine learning, neural networks, algorithmics, and graph theory. The internship duration is 6 months, starting on January 15, 2024, with a monthly salary ranging from €1572 to €2096.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=445"
+    },
+    {
+        "title": "Towards Formal Semantics and Proven Compliance of Business Workflows Processing Personal Data",
+        "organization": "INSA CVL / LIFO",
+        "supervisor": "Vincent HUGOT",
+        "description": "This internship proposal is for a position in the SDS team at INSA CVL. The internship will focus on formal semantics and compliance of business workflows processing personal data. It will serve as a prelude to a funded Ph.D. thesis. The internship will last 5 to 6 months and start around March, April, or May 2024. Candidates with a Master's degree and excellent background may also apply directly to the Ph.D. position. The internship will involve exploring prior art on workflow semantics and proof, reading real-world workflows, and implementing a CTL* model-checker.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=444"
+    },
+    {
+        "title": "Predicting Microbial Community Interactions using Physics Informed Neural Networks.",
+        "organization": "INRAE",
+        "supervisor": "Lorenzo Sala",
+        "description": "This internship proposal aims to predict microbial community interactions using Physics Informed Neural Networks (PINNs). The goal is to understand the relationships and interactions among bacteria in the gut microbiota and their associations with pathogens. The proposal suggests improving the efficiency of a data-driven algorithm and developing an optimization procedure for joint estimation of the GLV parameters and neural network parameters. The candidate will conduct a literature review, familiarize themselves with the Python library jinns, propose improvements to existing methods, implement the alternative approach using PINNs, compare algorithms on synthetic and real data, and communicate the results. The internship is for 6 months, starting from April 2024, and is based at the INRAE center of Jouy-en-Josas.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=443"
+    },
+    {
+        "title": "Handling model mismatch in closed-loop control of wind farms",
+        "organization": "IFP Énergies Nouvelles",
+        "supervisor": "Paolino Tona",
+        "description": "This internship proposal is offered by IFP Energies nouvelles and focuses on handling model mismatch in closed-loop control of wind farms. The internship duration is 5 months with a monthly compensation of approximately €1050. The proposal aims to examine the dynamics induced by low-level yaw control and ensure sufficient information for estimating the hyperparameters of the Gaussian process. The intern will work with stationary and medium-fidelity wind farm simulators and should have a background in engineering, automatic control, applied mathematics, and data science. Interested candidates can apply by sending their CV and cover letter to the internship supervisor.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=442"
+    },
+    {
+        "title": "Short-term prediction of wave elevation and vessel motion from remote sensors",
+        "organization": "IFP Énergies Nouvelles",
+        "supervisor": "Alexis Mérigaud",
+        "description": "This internship proposal is for a 5-month position at IFP Energies nouvelles. The project involves developing a real-time wave forecasting system using remote sensors to predict wave dynamics and vessel motion. The intern will create a digital twin of a vessel equipped with a radar and apply a prediction method to assess its performance. The desired profile includes a 3rd year engineering student or equivalent with a strong background in automatic control, statistical physics, applied mathematics, or data science. The intern will have the opportunity to work in a promising field with scientific and technical knowledge. To apply, send a CV and cover letter to the supervisors.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=441"
+    },
+    {
+        "title": "Apprentissage par renforcement pour la régulation de puissance de parc éolien dans le cadre de la stabilité du réseau électrique",
+        "organization": "IFP Énergies Nouvelles",
+        "supervisor": "Jiamin Zhu",
+        "description": "This internship proposal is offered by IFP Énergies Nouvelles and focuses on reinforcement learning for power regulation in wind farms to ensure the stability of the electrical grid. The objective is to develop algorithms that optimize power distribution among turbines based on a set power target. The internship may lead to a thesis on decentralized learning and its industrial applications. The program includes literature review, algorithm implementation, and testing on wind farm simulators. The desired profile includes a Master's student or a 3rd-year engineering student with knowledge in applied mathematics, machine learning, and programming skills in Python and Matlab/Simulink. The internship duration is 5-6 months with a monthly gross salary of €1081.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=440"
+    },
+    {
+        "title": "Formal Explanations for Trustworthy Artificial Intelligence",
+        "organization": "CEA",
+        "supervisor": "Julien Girard-Satabin",
+        "description": "The internship proposal is focused on exploring the scalability of formal explainable AI techniques. The aim is to identify the limits of existing techniques and propose new approaches. The intern will work with the CAISAR platform and the PyRAT analyzer to implement contrastive explanation methods and benchmark them on deep neural networks. The candidate should have knowledge of OCaml and formal verification, with a preference for familiarity with AI and neural networks. The internship will last 5 to 6 months and will be located at the CEA Nano-INNOV in Paris-Saclay, France. Compensation includes a monthly stipend and housing/travel allowance.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=439"
+    },
+    {
+        "title": "Semantic perturbations for Neural Network verifications",
+        "organization": "CEA",
+        "supervisor": "Julien Girard-Satabin",
+        "description": "This internship proposal from the French Alternative Energies and Atomic Energy Commission (CEA) aims to implement approaches for increasing the trustworthiness of AI systems. The focus is on implementing rotation and bias field perturbations in the tools, modifying ONNX networks to include the perturbations, benchmarking them on real datasets, and potentially retraining networks to be more robust. The candidate should have a background in computer science, knowledge of Python, and the ability to work in a team. The internship will last 5 to 6 months, with a monthly stipend and other benefits provided. Interested applicants should contact the specified individuals.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=438"
+    },
+    {
+        "title": "Boosting neural network analysis with reinforcement learning and GNN",
+        "organization": "CEA",
+        "supervisor": "Julien Girard-Satabin",
+        "description": "The internship proposal is for a position at the French Alternative Energies and Atomic Energy Commission (CEA) in their Software Safety and Security Laboratory. The internship focuses on improving the PyRAT tool, which uses abstract interpretation techniques to assess the robustness of neural networks. The goal is to explore new approaches, including reinforcement learning and Graph Neural Networks (GNN), to improve the precision and efficiency of the analysis. The internship is open to Master students or 2nd/3rd year engineering students with knowledge of Python, AI, neural networks, reinforcement learning, and preferably abstract interpretation or formal methods. The duration is 5 to 6 months with a monthly stipend and potential housing and travel allowances.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=437"
+    },
+    {
+        "title": "Noise symbols reduction and explainability for PyRAT’s neural network analysis",
+        "organization": "CEA",
+        "supervisor": "Julien Girard-Satabin",
+        "description": "This internship proposal from the French Alternative Energies and Atomic Energy Commission (CEA) aims to reduce noise symbols and improve explainability for PyRAT's neural network analysis. The internship will involve implementing noise symbol reduction techniques and assessing their effectiveness using various datasets. Additionally, the intern will explore the link between noise symbol reduction and network explainability. The internship is open to Master students or 2nd/3rd year engineering students with knowledge of Python and AI. The duration is 5 to 6 months, with a monthly stipend and potential housing and travel allowances. Applications are accepted until the position is filled.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=436"
+    },
+    {
+        "title": "Proposition d'un modèle de machine-learning hybride pour la prédiction de la réponse à la thérapie de resynchronisation cardiaque",
+        "organization": "Université de Rennes 1",
+        "supervisor": "Jeremy Beaumont",
+        "description": "This internship proposal is for a hybrid machine-learning model to predict the response to cardiac resynchronization therapy (CRT). The LTSI research laboratory at the University of Rennes and INSERM is seeking a student with skills in numerical analysis, signal processing, and programming. The objective of the internship is to combine existing methods to predict therapy response using clinical data. The proposed methodology will be evaluated on a database of 250 CRT candidate patients. The internship will take place in Rennes, starting in February 2024, and will last for 6 months.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=435"
+    },
+    {
+        "title": "[IA / NLP] Online learning pour l’analyse temporelle des tendances émergentes pour la veille technologique",
+        "organization": "RTE Réseau de Transport d'Electricité",
+        "supervisor": "Guillaume Grosjean",
+        "description": "This internship proposal is for a 6-month internship at RTE, the French electricity transmission system operator. The intern will be part of the Statistics and Data Valorization Department and will work on developing innovative methods for online learning and temporal analysis of emerging trends in technology monitoring. The main objective is to use natural language processing (NLP) techniques to analyze and identify important signals and trends in a large corpus of documents. The intern will work closely with experts at RTE and contribute to improving the company's monitoring and analysis capabilities in the energy sector.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=434"
+    },
+    {
+        "title": "Computer vision - Image segmentation for Urban scene Analysis",
+        "organization": "Probayes",
+        "supervisor": "Lisa SCANU",
+        "description": "Probayes, a leading AI solutions company, is offering a 4-6 month internship in computer vision and deep learning. The intern will work on a project involving the detection and recognition of text in postal images. The objectives of the internship include conducting a literature review, developing training and testing pipelines, evaluating model portability, and extending the use cases. Required skills include a strong foundation in math, image processing, and deep learning, proficiency in Python and computer vision, and familiarity with Linux and Git. Strong communication, teamwork, and autonomy are also desired. The internship offers a stimulating environment, valuable missions, and potential long-term employment opportunities.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=433"
+    },
+    {
+        "title": "Machine Learning for integrative genomics",
+        "organization": "Institut Pasteur",
+        "supervisor": "Laura Cantini",
+        "description": "This internship proposal is seeking a highly motivated M2 student to join the \"machine learning for integrative genomics\" team at Institut Pasteur for a 6-month internship. The focus of the internship is on machine learning for single-cell genomics, specifically using Optimal Transport for cell trajectory inference. The team is interdisciplinary and located at Institut Pasteur, with collaboration opportunities with computational biology and AI experts. Applicants should have a M2 in Data Science or Computer Science, strong analytical and programming skills, and previous experience in biology and single-cell data analysis is a plus. The possibility of a PhD opportunity in the team is also mentioned.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=432"
+    },
+    {
+        "title": "Automatisation des matchs à l’aide de Discord pour les Jeux de Société Olympiques entre intelligences artificielles",
+        "organization": "Université Paris-Dauphine, Université PSL",
+        "supervisor": "Tristan Cazenave",
+        "description": "This internship proposal is for the automation of matches using Discord for the Computer Olympiad, an annual global competition of Artificial Intelligence on board games. The objective is to program tools that automate the game actions and communication between AI teams. The proposal suggests using Discord as a communication platform and developing a Python bot that acts as a human operator, retrieving and transmitting game actions. The internship also includes designing a communication language for AI and creating additional tools for tournament organization and automation. The required skills include Python programming and basic knowledge of networking and scheduling algorithms.",
+        "link": "https://db.masteriasd.eu/internships/topic?id=431"
+    }
+]
