@@ -28,19 +28,22 @@ def extract_description(link):
 
 def main():
   path = './internship_scraper/internship_scraper/spiders/iasd.json'
-  with open(path) as json_data:
+  with open(path, encoding="utf8") as json_data:
     data = json.load(json_data)
+    data = list(filter(lambda x: x['link'] not in [None, ''],data))
+    total_len=len(data)
 
-  with open('retrieved_iasd.json') as already_extracted_json:
-    already_extracted = len(json.load(already_extracted_json))
+  with open('retrieved_iasd.json', encoding="utf8") as already_extracted_json:
+    extracted_data=json.load(already_extracted_json)
+    already_extracted = len(extracted_data)
     print(f'Already extracted {already_extracted} documents')
 
   links = [item['link'] for item in data]
-  updated_json = []
+  to_add = []
   for index, link in enumerate(links):
     if link == '' or link == None:
       continue
-    if index < already_extracted:
+    if index >= total_len - already_extracted:
       continue
     print('-'*100)
     print(f'Extracting description of document {index + 1}. Title {data[index]["title"]}')
@@ -48,11 +51,12 @@ def main():
     print(f'Extraction complete')
     current_json = data[index]
     current_json['description'] = description
-    updated_json.append(current_json)
+    to_add.append(current_json)
+    updated_json=to_add+extracted_data
     print('Dumping')
     with open('retrieved_iasd.json', 'w', encoding='utf-8') as f:
       json.dump(updated_json, f, ensure_ascii=False, indent=4)
-
+   
 
 if __name__=='__main__':
   main()
