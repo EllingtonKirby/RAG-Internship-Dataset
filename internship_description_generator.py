@@ -15,7 +15,7 @@ def extract_description(link):
   prompt = PromptTemplate.from_template(prompt_template)
 
   # Define LLM chain
-  llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k", api_key="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")
+  llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k", api_key="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")
   llm_chain = LLMChain(llm=llm, prompt=prompt)
 
   # Define StuffDocumentsChain
