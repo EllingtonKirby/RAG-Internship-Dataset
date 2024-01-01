@@ -2,6 +2,9 @@ import sqlite3
 import json
 import re
 from argparse import ArgumentParser
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 
 def create_interships_table():
   con = sqlite3.connect("internships.db")
@@ -72,23 +75,18 @@ def assess_quality():
 
   # 4. Description length analysis in terms of words
   print(f"Descriptions lentgh analysis")
-  query_description_stats = f"""
-    SELECT
-        MIN(LENGTH(description) - LENGTH(REPLACE(description, ' ', ''))) + 1 AS min_length_words,
-        AVG(LENGTH(description) - LENGTH(REPLACE(description, ' ', ''))) + 1 AS avg_length_words,
-        MAX(LENGTH(description) - LENGTH(REPLACE(description, ' ', ''))) + 1 AS max_length_words
-    FROM internship;
-"""
-  
-  cursor.execute(query_description_stats)
-  description_stats = cursor.fetchone()
-  min_length_words = description_stats[0]
-  avg_length_words = description_stats[1]
-  max_length_words = description_stats[2]
-  print(f"\tMinimum number of words: {min_length_words} words")
-  print(f"\tAverage number of words: {avg_length_words:.2f} words")
-  print(f"\tMaximum number of words: {max_length_words} words")
-  
+  query = "SELECT description FROM internship"
+  df = pd.read_sql_query(query, conn)
+  df['word_count'] = df['description'].apply(lambda x: len(str(x).split()))
+  N = 10
+  plt.hist(df['word_count'], bins=N, edgecolor='black')
+  plt.title('Distribution of word count in descriptions')
+  plt.xlabel('Number of words')
+  plt.ylabel('Frequency')
+  hist, bin_edges = np.histogram(df['word_count'], bins=N)
+  for i in range(N):
+      print(f'Bin {i + 1}: {int(bin_edges[i])} - {int(bin_edges[i + 1])} words: {hist[i]} descriptions')
+  plt.show()
 
   conn.close()
   pass
