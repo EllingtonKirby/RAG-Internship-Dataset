@@ -18,16 +18,18 @@ class IasdInternshipSpider(scrapy.Spider):
         for internship in  internships:
             yield self.parse_internship(internship)
 
+
     def parse_internship(self, internship):
-        title = internship.xpath("normalize-space(div[@class='internship-title']/a/text())").get().strip()
-        organization = internship.xpath("normalize-space(div[@class='internship-organization']/text())").get().strip()
-        supervisor = internship.xpath("normalize-space(div[@classs='internship-supervisor']/text())").get().strip()
-        description = ""
-        pdf_link = internship.xpath("normalize-space(div[@class='internship-title']/a/@href)").get().strip()
-        return {
-            'title': title,
-            'organization': organization,
-            'supervisor': supervisor,
-            'description': description,
-            'link': pdf_link
-        }
+        if internship.xpath("div[@class='internship-title']"): # check if internship is not already taken
+            title = internship.xpath("normalize-space(div[@class='internship-title']/a/text())").get().strip()
+            organization = internship.xpath("normalize-space(div[@class='internship-organization']/text())").get().strip()
+            supervisor = internship.xpath("normalize-space(div[@classs='internship-supervisor']/text())").get().strip()
+            description = ""
+            pdf_link = internship.xpath("normalize-space(div[@class='internship-title']/a/@href)").get().strip()
+            return {
+                'title': title,
+                'organization': organization,
+                'supervisor': supervisor,
+                'description': description,
+                'link': pdf_link
+            }
